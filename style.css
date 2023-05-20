@@ -123,8 +123,8 @@ footer{
     }   
 
     body{
+        max-width: 100%;
         overflow-x: hidden;
-        overflow-y: scroll;
 
     }
 
@@ -132,7 +132,9 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 3% auto;
+        margin: auto;
+        width: 100%;
+        
     }
 
     .imagemAlternativa{
