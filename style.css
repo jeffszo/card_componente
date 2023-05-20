@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    width: 750px;
+    height: 620px;
+    margin: 3% auto;
+    border-radius: 5px;
+}
+
+.container2 {
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    width: 400px;
+
+}
+
+h3 {
+    margin: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 16px;
+    opacity: 0.6;
+    font-family: "Montserrat";
+}
+
+h2 {
+    margin: 1.2rem;
+    font-size: 2.6rem;
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    margin: 1.2rem;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.5;
+
+}
+
+.paragrafo {
+    opacity: 0.7;
+    font-family: 'Montserrat';
+}
+
+
+
+.valores {
+    display: flex;
+}
+
+.buttao {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 4%;
+    width: 90%;
+    margin: 8%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    font-family: "Montserrat";
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.btn:hover {
+    transition: 0.1s;
+    cursor: pointer;
+    background-color: hsl(158, 28%, 17%);
+}
+
+
+.btn img {
+    margin-right: 5px;
+    width: 20px;
+}
+
+
+
+span {
+    font-size: 2.8rem;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-right: 9px;
+}
+
+s {
+    opacity: 0.6;
+    font-family: 'Montserrat';
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    opacity: 0.8;
+    
+}
+
+
+
+@media screen and (max-width:767px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }   
+
+    body{
+        overflow: scroll;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3% auto;
+    }
+
+    .imagemAlternativa{
+        width: 50%;
+        height: 50%;
+        border-radius: 5px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container2{
+        width: 50%;
+        height: 95%;
+        border-radius: 5px;
+    }
+
+    h2{
+        font-size: 2.1rem;
+    }
+
+    .paragrafo{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .valores{
+        margin-top: 0;
+    }
+
+    .btn{
+        margin-top: 0;
+        padding: 3%;
+    }
+
+}
