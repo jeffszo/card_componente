@@ -177,6 +177,7 @@ footer{
 @media screen and (max-width:494px){
     .imagemMobile{
         width: 50vh;
+        display: block;
     }
 
     .container2{
