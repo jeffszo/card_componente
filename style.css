@@ -123,7 +123,9 @@ footer{
     }   
 
     body{
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
+
     }
 
     .container{
